@@ -1,17 +1,26 @@
 
-// ÕâÊÇ µÚ¶þ²½
+// è¿™æ˜¯ ç¬¬äºŒæ­¥
 import React from 'react';
 
 import { Route, IndexRoute } from 'react-router';
-import {App,Home,About} from '../containers';
+import {
+  App,
+  Home,
+  About,
+  Profile
+} from '../containers';
 
-//·ÃÎÊµÄÍøÕ¾ ·Ö±ðÊÇ
+//è®¿é—®çš„ç½‘ç«™ åˆ†åˆ«æ˜¯
 // 1, http://localhost:3333/
 // 2, http://localhost:3333/about
 export default (
     <Route path="/" component={App}>
         <IndexRoute component={Home}/>
         <Route path="about" component={About}/>
+        //this.props.params.xxx  
+        <Route path="Profile/:xxx" component={Profile}/>
     </Route>
 )
-
+// "/"              App + Home
+// "/about"         App + Abouut
+// "Profile/:xxx"   App + Profile

@@ -4,13 +4,13 @@ import { SearchGithub } from '../../components';
 const App = ({children}) => {
         return(
             <div className="main-container">
-                {/*µ¼º½²¿·Ö*/}
+                {/*å¯¼èˆªéƒ¨åˆ†*/}
                 <nav className="navbar navbar-default">
                     <div className="col-sm-7 col-sm-offset-2" style={{marginTop:15}}>
                         <SearchGithub/>
                     </div>
                 </nav>
-                {/*ÄÚÈİ²¿·Ö*/}
+                {/*å†…å®¹éƒ¨åˆ†*/}
                 <div className="container">
                     {children}
                 </div>
@@ -24,13 +24,13 @@ export default App;
 
 
 //import React, {Component} from 'react';
-////ÕâÊÇ µÚÈı²½,
+////è¿™æ˜¯ ç¬¬ä¸‰æ­¥,
 //export default class App extends Component{
 //    render(){
 //        return(
 //            <div>
 //                <h1>App</h1>
-//                {/*ÕâÊ±ºòÓ¦¸Ã¿´£¬../../routes/index.js ¿´ËüÃÇÊÇÔõÃ´¸ö°üº¬¹ØÏµ*/}
+//                {/*è¿™æ—¶å€™åº”è¯¥çœ‹ï¼Œ../../routes/index.js çœ‹å®ƒä»¬æ˜¯æ€ä¹ˆä¸ªåŒ…å«å…³ç³»*/}
 //                {this.props.children}
 //            </div>
 //        )
