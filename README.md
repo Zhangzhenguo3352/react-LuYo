@@ -10,12 +10,12 @@
 
 3, 如果我们想 无后端，要一些假数据 需要下载 插件<br>
 
-     首先下载这两个库<br>
-     $ npm install --save reactfire firebase<br>
+     首先下载这两个库
+     $ npm install --save reactfire firebase
 
-     然后在代码中引入：<br>
-     import ReactFireMixin from 'reactfire';<br>
-     import Firebase from 'firebase';<br>
+     然后在代码中引入：
+     import ReactFireMixin from 'reactfire';
+     import Firebase from 'firebase';
 
 4, 提供了 mixin 方法需要下载 ,mixin是 公共 组件的方法<br>
      npm install --save core-decorators<br>
@@ -29,12 +29,12 @@ class Profile extends Component {<br>
  ...<br>
 }<br>
 
-     这还没完成 需要下载一个能解析decorator的babel插件<br>
+     这还没完成 需要下载一个能解析decorator的babel插件
 
 
 $ npm install babel-plugin-transform-decorators-legacy --save-dev<br>
 
-     然后在.babelrc里面配置<br>
+     然后在.babelrc里面配置
 
 配置.babrelrc<br>
 
